@@ -42,8 +42,7 @@ body {
   font-color /*This is the header text*/
   
   display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center; /* vertical */
+  text-align: center;
 }
 
 .menu {
@@ -64,6 +63,7 @@ body {
   
   font-family:Futura; font-size: 20px;
   font-color: white;
+  text-align: center;
   
 }
 
