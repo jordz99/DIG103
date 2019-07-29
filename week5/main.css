@@ -13,8 +13,8 @@ body {
   height: 250px;
   background-color: rgb(204, 0, 153);
   font-size: 40px;
-  h1 {text-align: center;
-  }
+  text-align: center;
+  
 }
 
 .menu {
