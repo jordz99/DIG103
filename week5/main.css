@@ -8,21 +8,13 @@ body {
   background-color: rgb(204, 0, 153);
 }
 
-.header h1 {
+.header {
   width: 100%;
   height: 250px;
   background-color: rgb(255,102,0);
   font-size: 40px;
-  text-align: center;
-  align-items: center; /* vertical */
+  text-alight: center;
   
-.header h2 { 
-   width: 100%;
-  height: 250px;
-  background-color: rgb(255,102,0);
-  font-size: 20px;
-  text-align: center;
-  align-items: center; /* vertical */
 }
    
 .menu {
@@ -39,8 +31,6 @@ body {
   width: 120px;
   height: 100%;
   background-color: rgb(255,102,0);
-  text-color: black;
-  text-align: center;
   margin: 2px;
 }
 
