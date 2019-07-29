@@ -13,7 +13,8 @@ body {
   height: 250px;
   background-color: rgb(255,102,0);
   font-size: 40px;
-  text-align: center;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
   
 }
 
