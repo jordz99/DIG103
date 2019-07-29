@@ -12,6 +12,9 @@ body {
   height: 250px;
     background-color: rgb(255,153,0);
  font-family: Futura; font-size: 40px;
+ 
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
 }
 
 .menu {
