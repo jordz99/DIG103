@@ -13,6 +13,7 @@ body {
     background-color: rgb(255,153,0);
  font-family: Futura; font-size: 40px;
  
+  display: flex;
   justify-content: center; /* horizontal */
   align-items: center; /* vertical */
 }
