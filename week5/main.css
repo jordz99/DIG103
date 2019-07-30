@@ -13,7 +13,6 @@ body {
   height: 250px;
   background-color: rgb(255,102,0);
   font-size: 50px;
-  color: white
   text-align: center;
 }
 
@@ -27,7 +26,7 @@ body {
 .menu {
   width: 100%;
   height: 50px;
-  background-color: rgb(255,102,0);
+  background-color: rgba(255, 102, 0, 0);
 
   display: flex;
   position: relative;
@@ -36,14 +35,17 @@ body {
 }
 
 .button {
-  width: 120px;
-  height: 100%;
+  width: 25%;
+  height: 50%;
+  padding: 10px;
   background-color: rgb(255,102,0);
-  margin: 2px;
-  text-align: center;
-  text-decoration: none;
-  
-  
+  margin: 50px;
+}
+
+  .button {
+    text-align: center;
+    text-decoration: none;
+   
 }
 
 
