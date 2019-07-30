@@ -16,8 +16,9 @@ body {
   text-align: center;
 }
 .header img {
-  position: absolute;
+  position: relative;
   clip: rect(0px,60px,200px,0px);
+  object-fit: cover;
 }
   
    
@@ -27,6 +28,7 @@ body {
   background-color: rgb(255,102,0);
 
   display: flex;
+  position: relative;
   justify-content: center; /* horizontal */
   align-items: center; /* vertical */
 }
