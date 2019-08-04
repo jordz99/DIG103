@@ -298,9 +298,8 @@ a {
   float: left;
   display: inline-block;
   background-color: #ff6600;
-
-
 }
+
 form {
   margin: 0 auto;
   width: 50%;
@@ -332,7 +331,6 @@ input[type=text], input[type=submit] {
   color: white;
 }
 
-
 input[type=submit] {
   background-color: rgba(255, 102, 0, 0);
   width: 100%;
@@ -348,17 +346,13 @@ input[type=submit]:hover {
   align-items: center;
   justify-content: center;
   width: 100%;
-
   padding: 10px;
   transition: 0.5s;
   color: black;
   text-decoration: underline;
 }
 
-
-/* Newsletter */
-
-
+/* social media icons */
 .social {
   width: 100%;
   background-color: black;
@@ -366,10 +360,10 @@ input[type=submit]:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-padding-top: 20px;
+  padding-top: 20px;
   padding-bottom: 20px;
-
 }
+
 .fa {
   padding: 20px;
   font-size: 50px;
@@ -380,10 +374,8 @@ padding-top: 20px;
   border-radius: 70%;
 }
 
-
-
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
