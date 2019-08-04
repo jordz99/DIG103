@@ -28,6 +28,7 @@ body {
   text-align: center;
   background-color: : white;
 }
+
 .h1 {
   color: white;
   font-family:  'Luckiest Guy', cursive;
@@ -36,6 +37,7 @@ body {
   font-size: 100px;
   text-align: center;
 }
+
 .h1 {
   position: absolute;
   top: 50%;
@@ -50,44 +52,39 @@ body {
   background-color: rgba(255, 102, 0, 0);
   display: flex;
   position: relative;
-  justify-content: center; /* horizontal */
-  align-items: center; /* vertical */
+  justify-content: center;
+  align-items: center;
 }
 
-
 /* LINKS */
-
 a {
   outline: none;
   text-decoration: none;
 }
 
 /* These are the link colours */
-
-a:link {
-  color: white;
+  a:link {
+    color: white;
 }
 
 /* visited link */
-a:visited {
-  color: white;
+  a:visited {
+    color: white;
 }
 
 /* mouse over link */
-a:hover {
-  color: white;
-  text-decoration: underline;
+  a:hover {
+    color: white;
+    text-decoration: underline;
 
 }
 
 /* selected link */
-a:active {
-  color: #ff6600;
+  a:active {
+    color: #ff6600;
 }
 
-/* These are the buttons*/
-
-
+/* Buttons*/
 .button {
   width: 125px;
   height: 25px;
@@ -97,18 +94,16 @@ a:active {
   border-radius: 8px;
   margin: 50px;
   margin-bottom: 70px;
-
-
 }
 
-  .button {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: white;
-    transition: 0.5s;
-    text-align: center;
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  transition: 0.5s;
+  text-align: center;
 }
 
 .button:hover {
@@ -118,7 +113,6 @@ a:active {
   transition: 0.5s;
   border: 2px solid rgb(0,255,255);
   border-radius:100px;
-
 }
 
 .hero {
@@ -127,6 +121,7 @@ a:active {
   background-color: black;
 }
 
+/* Hero text */
 .intro-1 {
   width: 100%;
   height: 550px;
@@ -135,7 +130,6 @@ a:active {
   text-align: center;
   align-items: center;
   line-height: 1.6;
-
 }
 
 .intro-1 p1 {
@@ -184,6 +178,7 @@ a:active {
   letter-spacing: 3px;
 }
 
+/* Images */
 .column-container {
   width: 100%;
   height: 300px;
@@ -193,7 +188,6 @@ a:active {
 .column {
   width: 50%;
   height: 300px;
-
 }
 
 .column img {
@@ -203,13 +197,7 @@ a:active {
   object-fit: cover;
 }
 
-.earlbird {
- width: 100%;
- height: 400px;
-}
-
-
-
+/* Ticket section */
 .purchase{
   width: 100%;
   height: 150px;
@@ -219,19 +207,16 @@ a:active {
   align-items: center;
   justify-content: center;
   background-color: #ff6600;
-
 }
-
 
 .purchase p1 {
-margin-top: 50px;
-font-family: 'Luckiest Guy'; sans-serif;
-font-size: 60px;
-color: white;
-letter-spacing: 4px;
-
-
+  margin-top: 50px;
+  font-family: 'Luckiest Guy'; sans-serif;
+  font-size: 60px;
+  color: white;
+  letter-spacing: 4px;
 }
+
 .ticket.container {
   width: 100%;
   height: 200px;
@@ -239,17 +224,16 @@ letter-spacing: 4px;
 }
 
 .ticket {
-    width: 33.33%;
-    height: 150px;
-    padding-top: 30px;
-    background-color: black;
-    float: left;
-    text-align: center;
-    align-items: center;
-    line-height: 1.6;
-
-
+  width: 33.33%;
+  height: 150px;
+  padding-top: 30px;
+  background-color: black;
+  float: left;
+  text-align: center;
+  align-items: center;
+  line-height: 1.6;
 }
+
 .ticket p6 {
   padding: 10px;
   padding-left: 20px;
@@ -257,7 +241,6 @@ letter-spacing: 4px;
   font-size: 30px;
   color: white;
   letter-spacing: 2px;
-
 }
 
 .ticket p7 {
@@ -269,14 +252,17 @@ letter-spacing: 4px;
   color: #ff6600;
   letter-spacing: 2px;
 }
-  .ticket p8 {
-    padding: 10px;
-    padding-left: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: white;
-    font-style: italic;
+
+.ticket p8 {
+  padding: 10px;
+  padding-left: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-style: italic;
 }
+
+/* Book now */
 .book {
   width: 33.33%;
   height: 100px;
@@ -288,6 +274,7 @@ letter-spacing: 4px;
   padding-bottom: 60px;
 }
 
+/* Contact information */
 .footer {
   width: 33.33%;
   height: 50px;
@@ -299,13 +286,13 @@ letter-spacing: 4px;
 }
 
 .footer {
-font-family: 'Raleway'; sans-serif;
-font-size: 18px;
-color: white;
-text-decoration: underline;
+  font-family: 'Raleway'; sans-serif;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
 }
 
-/* Newsletter */
+/* Newsletter form */
 .newsletter {
   width: 100%;
   float: left;
